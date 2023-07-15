@@ -138,7 +138,7 @@ else:
 # Ask the user to enter their OpenAI API key
 #API_O = st.sidebar.text_input("API-KEY", type="password")
 # Read API from Streamlit secrets
-API_O = os.getenv["OPENAI_API_KEY"]
+API_O = os.getenv("OPENAI_API_KEY")
 
 # Session state storage would be ideal
 if API_O:
